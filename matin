@@ -1,0 +1,13 @@
+import turtle
+t=turtle.Turtle()
+t.shape("tutle")
+t.color("bluo")
+t.speed("fast")
+screen = turtle.screen()
+t.width(3)
+for i in range(8):
+   for j in range(8):
+      t.forward(100)
+      t.right(45)
+   t.right(45)
+t.hideturtle() 
